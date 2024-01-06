@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.buttons-container {
+  display: flex;
+}
+
+.buttons-container button {
+  height: 60px;
+  width: 60px;
+  font-size: 20px;
+}
+p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset-button {
+  background-color: #5c48d3;
+  color: #ffffff;
+}
